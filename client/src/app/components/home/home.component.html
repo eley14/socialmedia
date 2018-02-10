@@ -1,0 +1,52 @@
+<div class="jumbotron text-center">
+  <h1>SHUK</h1>
+  <p class="lead">Welcome to the number 1 provider of quality SHUK world wide by <strong>L & A Solutions</strong></p>
+  <div>
+    <a *ngIf="!authService.loggedIn()" routerLink="/register" class="btn btn-primary">Register</a>
+    <a *ngIf="!authService.loggedIn()" routerLink="/login" class="btn btn-default">Login</a>
+    <a *ngIf="authService.loggedIn()" routerLink="/blog" class="btn btn-success">Upload Applicants (CSV File)</a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="https://media2.giphy.com/media/3BRDkVjKikYW4/giphy.gif" alt="placeholder image" width="350" height="200">
+      <div class="caption">
+        <h3>Blue</h3>
+        <p>Dream</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class=thumbnail> <img src="https://media0.giphy.com/media/SyemapFxj7TiM/giphy.gif" alt="Generic placeholder image" width="210" height="100">
+      <div class=caption>
+        <h3>Lemon</h3>
+        <p>Shuk</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class=thumbnail> <img src="https://media2.giphy.com/media/8HjZy97jVKbwk/giphy.gif" alt="Generic placeholder image" width="500" height="100">
+      <div class=caption>
+        <h3>Blue</h3>
+        <p>Magoo</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class=thumbnail> <img src="https://media1.giphy.com/media/psBgZLaOfKXZe/giphy.gif" alt="Generic placeholder image" width="200" height="200">
+      <div class=caption>
+        <h3>Lemon</h3>
+        <p>Jack</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</div>
